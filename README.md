@@ -1,4 +1,4 @@
-## 🛠️ Training Setup and Parameters
+## 🛠️ Training Setup and Parameters 🛠️
 
 | Component       | Details                         |
 |----------------|----------------------------------|
@@ -11,21 +11,10 @@
 
 ---
 
-## 📈 Results and Discussion
+## 📈 Results
 
-### 🔍 5.1 Result and Analysis
-
-This section presents a detailed comparative analysis of three object detection models—YOLOv5s, YOLOv8s, and YOLOv11s—on two curated fire and smoke detection datasets. The evaluation focuses on core performance metrics such as Precision, Recall, and mean Average Precision (mAP) to determine the robustness and generalization capability of each model.
-
----
-
-### 📂 5.1.1 Dataset 1: Fire V-8 (979 images)
-
-This is a small but well-balanced dataset containing labeled images across three categories: **fire**, **smoke**, and **background**. Each model was evaluated for its ability to accurately detect and classify instances of fire and smoke under varying lighting and background conditions.
-
-YOLOv8s emerged as the best-performing model on this dataset, showing superior generalization and robustness. YOLOv5s followed closely, while YOLOv11s underperformed, likely due to its complexity being underutilized on a smaller dataset—leading to possible overfitting.
-
-#### 📊 Table 3: Performance Comparison of YOLO Models on Dataset 1
+[🔗 Dataset Link (Roboflow)](https://universe.roboflow.com/custom-thxhn/fire-wrpgm/dataset/8)
+### Dataset 1: Fire V-8 (979 images)
 
 | Model      | Precision | Recall | mAP@0.5 | mAP@0.5:0.95 |
 |------------|-----------|--------|---------|--------------|
@@ -33,19 +22,36 @@ YOLOv8s emerged as the best-performing model on this dataset, showing superior g
 | **YOLOv8s**  | 0.940     | 0.942  | 0.979   | 0.787        |
 | **YOLOv11s** | 0.841     | 0.867  | 0.875   | 0.497        |
 
----
 
-> 📌 *Note: Additional performance graphs, training loss plots, and real-time detection snapshots are included in the `/assets/` folder for deeper analysis.*
+ ![image](https://github.com/user-attachments/assets/be66d1eb-54a5-4dd9-90ce-a0fa44af1328)
+Precision graph of YOLOv5s, YOLOv8s, and YOLOv11s models on Dataset 1 across 50 epochs.
 
----
+![image](https://github.com/user-attachments/assets/243a5616-202a-442b-ad88-684f6bc1e7ee)
+map@50 graph of YOLOv5s, YOLOv8s, and YOLOv11s models on Dataset 1 across 50 epochs.
+
+![image](https://github.com/user-attachments/assets/e4c13095-6209-4e3e-84a6-419ac4874fd3)
+map@50-95 graph of YOLOv5s, YOLOv8s, and YOLOv11s models on Dataset 1 across 50 epochs.
+
+![image](https://github.com/user-attachments/assets/32436c11-82d7-4596-99ce-aae342319bef)
+Recall graph of YOLOv5s, YOLOv8s, and YOLOv11s models on Dataset 1 across 50 epochs.
+
 
 ### 🔦 Real-world Consideration
 
 To minimize false positives—such as detecting headlights or bright lights as fire—the models were trained with diverse datasets and filtered with a high confidence threshold. This ensures that the detection is based on chaotic visual patterns and context (e.g., flickering edges, smoke trails) rather than just brightness or color.
 
 ---
+### Detection Results 
 
-📸 *[Insert detection screenshots and loss curves here]*
+## YOLOv5s
+![image](https://github.com/user-attachments/assets/77e5f23e-292d-4b5a-8c73-5fdb070bef3c)
+
+
+## YOLOv8s
+![image](https://github.com/user-attachments/assets/0c401bb9-8895-4ff3-ae28-e31b8a8638d8)
+
+## YOLOv11s
+![image](https://github.com/user-attachments/assets/2fad1b75-7153-466c-80e0-cdccc3719b57)
 
 
 ---
@@ -54,11 +60,6 @@ To minimize false positives—such as detecting headlights or bright lights as f
 
 [🔗 Dataset Link (Roboflow)](https://universe.roboflow.com/veli-t/firesmokedetection-5w49j/dataset/4)
 
-This larger dataset presents complex, real-world scenes involving dynamic fire and smoke patterns across different lighting conditions and partial occlusions. It’s significantly more challenging than Dataset 1, making it ideal for evaluating a model's generalization ability.
-
-YOLOv5s delivered the strongest results overall, particularly in **mAP@0.5**, suggesting better localization and detection on visually diverse data. Surprisingly, **YOLOv11s** slightly outperformed YOLOv8s in **mAP@0.5:0.95**, indicating its deeper architecture handled nuanced detection tasks better—despite the added training cost.
-
-#### 📊 Table 4: Performance Comparison of YOLO Models on Dataset 2
 
 | Model       | Precision | Recall | mAP@0.5 | mAP@0.5:0.95 |
 |-------------|-----------|--------|---------|--------------|
@@ -66,14 +67,33 @@ YOLOv5s delivered the strongest results overall, particularly in **mAP@0.5**, su
 | **YOLOv8s**   | 0.653     | 0.527  | 0.550   | 0.320        |
 | **YOLOv11s**  | 0.652     | 0.555  | 0.565   | 0.328        |
 
----
+ 
+![image](https://github.com/user-attachments/assets/3f745919-4c48-4e63-b9fd-fa8d90f54eed)
+map@50-95 graph of YOLOv5s, YOLOv8s, and YOLOv11s models on Dataset 2 across 120 epochs.
 
+![image](https://github.com/user-attachments/assets/e96bcbae-0e52-48d8-a8a6-b6c7fca03166)
+map@50 graph of YOLOv5s, YOLOv8s, and YOLOv11s models on Dataset 2 across 120 epochs.
+
+![image](https://github.com/user-attachments/assets/f49feee4-63ef-461b-8592-36f198626f38)
+Recall graph of YOLOv5s, YOLOv8s, and YOLOv11s models on Dataset 2 across 120 epochs.
+
+![image](https://github.com/user-attachments/assets/266f4ecf-86ef-47b0-a2ee-d80f779a5bbe)
+Precision graph of YOLOv5s, YOLOv8s, and YOLOv11s models on Dataset 2 across 120 epochs.
+
+---
+### Detection Results 
+
+## YOLOv5s
+![val_batch0_labels](https://github.com/user-attachments/assets/13c2ed58-3356-4249-b062-44f49e4bbd80)
+
+## YOLOv8s
+![val_batch0_labels](https://github.com/user-attachments/assets/e047d834-1d93-4382-9a23-8ad1a66e89a9)
+
+## YOLOv11s
+![val_batch0_labels](https://github.com/user-attachments/assets/a09f2769-6b63-4caa-bccc-d1f3bb0ce46a)
+
+---
 🧪 *Model training and evaluation were conducted using Google Colab with Tesla T4 GPU acceleration.*  
 👉 [Colab Notebook 🔗](https://colab.research.google.com/drive/1VCRa__kG4RYLlHrJl3gW19eRrR8BelTk?usp=sharing)
 
-> ⚠️ YOLOv11’s complexity benefits start to appear only with larger datasets. Its slight edge over YOLOv8 in fine-grained accuracy suggests better potential with further tuning or multi-scale augmentation.
-
 ---
-
-📸 *[Add training logs, confusion matrices, and qualitative sample outputs here]*
-
