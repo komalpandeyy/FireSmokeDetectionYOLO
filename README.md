@@ -1,4 +1,5 @@
 This project presents a comparative analysis of YOLOv5, YOLOv8, and YOLOv11 for real-time fire and smoke detection using two benchmark datasets. YOLOv8 achieved the highest performance on the smaller, balanced FIRE V-8 dataset (979 images), with a mean Average Precision (mAP@0.5) of 97.9%, indicating superior detection accuracy. On the larger and more complex FIRE AND SMOKE DETECTION dataset (6,526 images), YOLOv5 demonstrated stronger generalization with the highest mAP@0.5 of 58%. YOLOv11 showed marginal improvements in localization (mAP@0.5:0.95) over YOLOv8 in this dataset. These findings emphasize the importance of selecting models based on dataset characteristics rather than relying on a single best-performing algorithm.
+
 --
 ## 🛠️ Training Setup and Parameters 🛠️
 
