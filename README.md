@@ -2,7 +2,7 @@
 
 | Component       | Details                         |
 |----------------|----------------------------------|
-| **GPU**         | NVIDIA Tesla T4 (13GB VRAM)     |
+| **GPU**         | NVIDIA Tesla T4 (colab)           |
 | **Batch Size**  | 16                               |
 | **Epochs**      | 50 (Dataset 1), 120 (Dataset 2)  |
 | **Frameworks**  | PyTorch, OpenCV, Python          |
@@ -23,18 +23,10 @@
 | **YOLOv11s** | 0.841     | 0.867  | 0.875   | 0.497        |
 
 
- ![image](https://github.com/user-attachments/assets/be66d1eb-54a5-4dd9-90ce-a0fa44af1328)
-Precision graph of YOLOv5s, YOLOv8s, and YOLOv11s models on Dataset 1 across 50 epochs.
-
-![image](https://github.com/user-attachments/assets/243a5616-202a-442b-ad88-684f6bc1e7ee)
-map@50 graph of YOLOv5s, YOLOv8s, and YOLOv11s models on Dataset 1 across 50 epochs.
-
-![image](https://github.com/user-attachments/assets/e4c13095-6209-4e3e-84a6-419ac4874fd3)
-map@50-95 graph of YOLOv5s, YOLOv8s, and YOLOv11s models on Dataset 1 across 50 epochs.
-
-![image](https://github.com/user-attachments/assets/32436c11-82d7-4596-99ce-aae342319bef)
-Recall graph of YOLOv5s, YOLOv8s, and YOLOv11s models on Dataset 1 across 50 epochs.
-
+<img src = "https://github.com/user-attachments/assets/be66d1eb-54a5-4dd9-90ce-a0fa44af1328" width = "500"/>
+<img src = "https://github.com/user-attachments/assets/243a5616-202a-442b-ad88-684f6bc1e7ee" width = "500"/>
+<img src = "https://github.com/user-attachments/assets/e4c13095-6209-4e3e-84a6-419ac4874fd3" width = "500"/>
+<img src = "https://github.com/user-attachments/assets/32436c11-82d7-4596-99ce-aae342319bef" width = "500"/>
 
 ### 🔦 Real-world Consideration
 
@@ -67,18 +59,10 @@ To minimize false positives—such as detecting headlights or bright lights as f
 | **YOLOv8s**   | 0.653     | 0.527  | 0.550   | 0.320        |
 | **YOLOv11s**  | 0.652     | 0.555  | 0.565   | 0.328        |
 
- 
-![image](https://github.com/user-attachments/assets/3f745919-4c48-4e63-b9fd-fa8d90f54eed)
-map@50-95 graph of YOLOv5s, YOLOv8s, and YOLOv11s models on Dataset 2 across 120 epochs.
-
-![image](https://github.com/user-attachments/assets/e96bcbae-0e52-48d8-a8a6-b6c7fca03166)
-map@50 graph of YOLOv5s, YOLOv8s, and YOLOv11s models on Dataset 2 across 120 epochs.
-
-![image](https://github.com/user-attachments/assets/f49feee4-63ef-461b-8592-36f198626f38)
-Recall graph of YOLOv5s, YOLOv8s, and YOLOv11s models on Dataset 2 across 120 epochs.
-
-![image](https://github.com/user-attachments/assets/266f4ecf-86ef-47b0-a2ee-d80f779a5bbe)
-Precision graph of YOLOv5s, YOLOv8s, and YOLOv11s models on Dataset 2 across 120 epochs.
+<img src = "https://github.com/user-attachments/assets/266f4ecf-86ef-47b0-a2ee-d80f779a5bbe" width = "500"/>
+<img src = "https://github.com/user-attachments/assets/f49feee4-63ef-461b-8592-36f198626f38" width = "500"/>
+<img src = "https://github.com/user-attachments/assets/e96bcbae-0e52-48d8-a8a6-b6c7fca03166" width = "500"/>
+<img src = "https://github.com/user-attachments/assets/3f745919-4c48-4e63-b9fd-fa8d90f54eed" width = "500"/>
 
 ---
 ### Detection Results 
