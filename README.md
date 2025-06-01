@@ -39,11 +39,10 @@ To minimize false positives—such as detecting headlights or bright lights as f
 <img src = "https://github.com/user-attachments/assets/77e5f23e-292d-4b5a-8c73-5fdb070bef3c" height = "500" width = "500"/>
 
 ## YOLOv8s
-![image](https://github.com/user-attachments/assets/0c401bb9-8895-4ff3-ae28-e31b8a8638d8)
+<img src = "https://github.com/user-attachments/assets/0c401bb9-8895-4ff3-ae28-e31b8a8638d8" height = "500" width = "500"/>
 
 ## YOLOv11s
-![image](https://github.com/user-attachments/assets/2fad1b75-7153-466c-80e0-cdccc3719b57)
-
+<img src = "https://github.com/user-attachments/assets/2fad1b75-7153-466c-80e0-cdccc3719b57" height = "500" width = "500"/>
 
 ---
 
@@ -67,13 +66,13 @@ To minimize false positives—such as detecting headlights or bright lights as f
 ### Detection Results 
 
 ## YOLOv5s
-![val_batch0_labels](https://github.com/user-attachments/assets/13c2ed58-3356-4249-b062-44f49e4bbd80)
+<img src = "https://github.com/user-attachments/assets/13c2ed58-3356-4249-b062-44f49e4bbd80" height = "500" width = "500"/>
 
 ## YOLOv8s
-![val_batch0_labels](https://github.com/user-attachments/assets/e047d834-1d93-4382-9a23-8ad1a66e89a9)
+<img src = "https://github.com/user-attachments/assets/e047d834-1d93-4382-9a23-8ad1a66e89a9" height = "500" width = "500"/>
 
 ## YOLOv11s
-![val_batch0_labels](https://github.com/user-attachments/assets/a09f2769-6b63-4caa-bccc-d1f3bb0ce46a)
+<img src = "https://github.com/user-attachments/assets/a09f2769-6b63-4caa-bccc-d1f3bb0ce46a" height = "500" width = "500"/>
 
 ---
 🧪 *Model training and evaluation were conducted using Google Colab with Tesla T4 GPU acceleration.*  
