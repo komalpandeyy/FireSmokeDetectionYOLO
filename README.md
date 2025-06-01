@@ -36,8 +36,7 @@ To minimize false positives—such as detecting headlights or bright lights as f
 ### Detection Results 
 
 ## YOLOv5s
-![image](https://github.com/user-attachments/assets/77e5f23e-292d-4b5a-8c73-5fdb070bef3c)
-
+<img src = "https://github.com/user-attachments/assets/77e5f23e-292d-4b5a-8c73-5fdb070bef3c" height = "500"/>
 
 ## YOLOv8s
 ![image](https://github.com/user-attachments/assets/0c401bb9-8895-4ff3-ae28-e31b8a8638d8)
